@@ -6,12 +6,12 @@ using System.Web.Mvc;
 
 namespace WebBanMayTinh2.Controllers
 {
-    public class AccountController : Controller
+    public class NguoiDungController : Controller
     {
-        // GET: Account
+        // GET: NguoiDung
         public ActionResult Index()
         {
-            return View("Phuong");
+            return View();
         }
     }
 }
