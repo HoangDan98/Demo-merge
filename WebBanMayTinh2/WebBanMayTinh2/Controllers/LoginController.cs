@@ -6,9 +6,9 @@ using System.Web.Mvc;
 
 namespace WebBanMayTinh2.Controllers
 {
-    public class AccountController : Controller
+    public class LoginController : Controller
     {
-        // GET: Account
+        // GET: Login
         public ActionResult Index()
         {
             return View();
